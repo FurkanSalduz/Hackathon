@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Furkan SALDUZ">
+
+    <title>Hackathon</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar start-->
+    <div class="header bg-color">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark pt-3 ">
+          <a class="navbar-brand font-weight-bold " href="#">Shopify</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link"  href="#kategori">Kategoriler </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link " href="#urundetay">Ürün Detay</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#mobilapp">Mobil Uygulama</a>
+              </li>
+             
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- <div class="border-top border-dark mt-2"></div> -->
+    </div>
+    <!-- Navbar end-->
+
+    <!-- main start-->
+
+    <section id="hero" class="d-flex align-items-center my-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1
+             animate__animated animate__fadeInLeft"
+            data-aos="fade-up"
+          >
+            <div>
+              <h1>Hızlı ve Kolay Alışveriş Deneyimi</h1>
+              <h2>
+                Mobil alışverişinizi kolaylaştıran ve keyifli hale getiren uygulamamız ile tanışın! 
+                Artık istediğiniz her şeyi hızlıca bulabilir, güvenli bir şekilde satın alabilirsiniz.
+              </h2>
+              <a href="#" class="btn btn-dark mx-3"
+                ><i class="fa-brands fa-google-play"></i> Google Play</a
+              >
+              
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img animate__animated animate__fadeInRight"
+            data-aos="fade-up"
+          >
+            <img src="assets/hero-img.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main end-->
+
+    <!--Mobil Uygulama Tanıtımı Başlangıç-->
+    <div class="container">
+      <div class="row content">
+        <div
+          class="col-md-4 animate__animated animate__backInLeft animate__slower"
+          data-aos="fade-right"
+        >
+          <img src="assets/details-1.png" class="img-fluid" alt="" />
+        </div>
+        <div
+          class="col-md-8 pt-4 animate__animated animate__bounceInRight animate__delay-2s"
+          data-aos="fade-up"
+        >
+          <h3>
+            E-Ticaret Uygulamamızda Binlerce Ürün Sizi Bekliyor!
+          </h3>
+          <p class="">
+            Anasayfamızda binlerce ürün arasından istediğiniz kategoriyi seçerek alışverişinizi hemen başlatabilirsiniz.
+             Yeni ürünler, indirimler ve kampanyalarla dolu bu sayfada, size özel fırsatları keşfedin.
+          </p>
+
+          <ul>
+            <li>
+              <i class="bi bi-check"></i> Anasayfa, sürekli güncellenen yeni ürünlerle ve özel indirimlerle dolu. 
+              En son trendleri takip edin ve en cazip fırsatları kaçırmayın.
+            <li>
+              <i class="bi bi-check"></i> Alışveriş geçmişinize ve tercihlerinize dayanarak size özel tavsiyeler sunulur. 
+              Böylece istediğiniz ürünlere daha kolay ulaşabilirsiniz.
+            </li>
+            <li>
+              <i class="bi bi-check"></i> Kolay arayüzü ve güvenli ödeme sistemiyle alışveriş yapmak artık çok daha keyifli.
+               Güvenliğiniz bizim için ön planda!
+            </li>
+            
+          </ul>
+          <p>
+            Anasayfa, popüler ürünleri ve güncel trendleri vurgular. Diğer alıcıların en çok tercih ettiği ürünleri 
+            görmek ve güncel trendleri takip etmek için ideal bir başlangıç noktası.
+          </p>
+        </div>
+      </div>
+
+      <div class="row content">
+        <div class="col-md-4 order-1 order-md-2">
+          <img src="assets/details-2.png" class="img-fluid" alt="" />
+        </div>
+        <div
+          class="col-md-8 pt-5 order-2 order-md-1 aos-init aos-animate"
+          data-aos="fade-up"
+        >
+          <h3 id="kategori">  Geniş Kategori Yelpazesi</h3>
+          <p class="">
+            Kategoriler bölümü, kullanıcıların ihtiyaçlarına uygun geniş bir ürün yelpazesi sunar. Giyim, elektronik, ev dekorasyonu, spor malzemeleri ve daha fazlası gibi çeşitli kategoriler arasında gezinebilirsiniz. Bu çeşitlilik, farklı kullanıcıların farklı taleplerini karşılayacak şekilde tasarlanmıştır.
+            
+          </p>
+          <p class="">
+            E-Ticaret uygulamamızda geniş kategori seçenekleri ile herkes için bir şeyler bulunuyor. 
+            pek çok kategoride binlerce ürün arasından istediğinizi seçin.
+             Sınırsız seçenekler, sınırsız alışveriş keyfi! 
+          </p>
+          <p class="">
+            Her türlü bütçeye ve zevke hitap eden bir marka portföyü sunuyoruz. Tanınmış uluslararası markaların yanı sıra,
+             yerel ve yükselen markalara da yer veriyoruz. Bu sayede herkesin tercihine uygun ürünler bulabilmesini sağlıyoruz.
+          </p>
+          </p>
+        </div>
+      </div>
+
+      <div class="row content">
+        <div class="col-md-4 aos-init aos-animate" data-aos="fade-right">
+          <img src="assets/details-3.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-8 pt-5 aos-init aos-animate" data-aos="fade-up">
+          <h3 id="sepet">
+            Ürün Sepeti
+          </h3>
+          <p>
+            Sepet bölümü, alışveriş yaparken seçtiğiniz ürünleri geçici olarak saklayarak kolay erişim sağlar. 
+            İstediğiniz ürünleri sepete ekleyebilir, daha sonra satın almak üzere saklayabilir veya incelemeye devam edebilirsiniz.
+             Bu sayede, alışveriş listenizi kaybetmeden kolayca devam edebilirsiniz.
+          </p>
+          <ul>
+            <li>
+              <i class="bi bi-check"></i>Sepetinizdeki tüm ürünlerin toplam fiyatını ve tutarını net bir şekilde görebilirsiniz. Bu, alışveriş yaparken bütçenizi kontrol etmenizi sağlar.
+            </li>
+            <li>
+              <i class="bi bi-check"></i> Sepet bölümünde hızlı ödeme seçenekleri sunuyoruz. Bu sayede, 
+              alışverişinizi hızlı ve güvenli bir şekilde tamamlayabilirsiniz.
+            </li>
+           
+          </ul>
+          <p>
+            Sepet bölümünde, eklediğiniz ürünleri istediğiniz zaman kolayca düzenleyebilirsiniz. Miktarı değiştirebilir,
+             ürünü kaldırabilir veya seçenekleri güncelleyebilirsiniz. Bu şekilde, alışveriş listenizi istediğiniz gibi özelleştirebilirsiniz.
+          </p>
+         
+        </div>
+      </div>
+
+      <div class="row content">
+        <div
+          class="col-md-4 order-1 order-md-2 aos-init aos-animate"
+          data-aos="fade-left"
+        >
+          <img src="assets/details-4.png" class="img-fluid" alt="" />
+        </div>
+        <div
+          class="col-md-8 pt-5 order-2 order-md-1 aos-init aos-animate"
+          data-aos="fade-up"
+        >
+          <h3 id="urundetay">
+            Ürün Detayı
+          </h3>
+          <p class="font-italic">
+            Ürün detay sayfasında, ürünün özellikleri, kullanım alanları ve avantajları hakkında bir açıklama bulunur. Bu açıklama, müşterilere ürün hakkında genel bir fikir verir.
+          </p>
+          <p>
+            Ürün detay sayfasında, ürünün fotoğrafları bulunur. Bu görseller, müşterilere ürünü farklı açılardan görmelerini ve daha iyi bir şekilde tanımalarını sağlar. Müşterilerin ürün hakkında daha fazla bilgi edinmelerine ve daha iyi bir karar vermelerine yardımcı olur.
+          </p>
+          <p>
+            Müşterilerin ürün hakkında daha fazla bilgi edinmelerine ve daha iyi bir karar vermelerine yardımcı olur.
+            müşteri ürünü satın almak ister ise ürünü sepete ekle seçeneğini kullanarak sepete ürün ekleyebilir
+          </p>
+          
+          
+        </div>
+      </div>
+      <!--ŞİRKET LOGOLARI BAŞLANGIÇ-->
+    <div class="container">
+      <div class="row items-center my-4 ">
+        <div class="col-md-2 col-6">
+          <div class="single-image px-5">
+            <figure class="text-center">
+              <img
+                width="100"
+                height="100"
+                src="assets/client-redbull.svg"
+                alt="clients"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="single-image px-5">
+            <figure class="text-center">
+              <img
+                width="100"
+                height="100"
+                src="assets/client-knorr.png"
+                alt="clients"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="single-image px-5">
+            <figure class="text-center">
+              <img
+                width="100"
+                height="100"
+                src="assets/client-domainhizmetleri.png"
+                alt="clients"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="single-image px-5">
+            <figure class="text-center">
+              <img
+                width="110"
+                height="90"
+                src="assets/client-woma.png"
+                alt="clients"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="single-image px-5">
+            <figure class="text-center">
+              <img
+                width="100"
+                height="100"
+                src="assets/client-mcbu.png"
+                alt="clients"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="single-image px-5">
+            <figure class="text-center">
+              <img
+                width="100"
+                height="100"
+                src="assets/client-bakanlik.png"
+                alt="clients"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-2 col-12">
+          <div class="single-image px-30">
+            <figure class="text-center">
+              <img
+                width="100"
+                height="100"
+                src="assets/client-gencofis.png"
+                alt="clients"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--ŞİRKET LOGOLARI BİTİŞ-->
+      
+    <!-- Mobil Uygulama Ekran Görüntüleri-->
+    </div>
+    <div class="container">
+      <h1 id="mobilapp" class="  text-center ">Mobil Uygulama </h1>
+      <div class="row d-flex justify-content-between my-5   ">
+        <div>
+          <img src="assets/Home.png" alt="">
+        </div>
+        <div>
+          <img src="assets/Kategori.png" alt="">
+        </div>
+        <div>
+          <img src="assets/Favoriler.png" alt="">
+        </div>
+        <div>
+          <img src="assets/urundetay.png" alt="">
+        </div>
+       
+      </div>
+    </div>
+    <!--Mobil Uygulama Tanıtımı Bitiş-->
+
+    <footer class="footer mt-auto py-4 ">
+      <div class="container text-center">
+        <span>&copy; 2024 ENİGMA Tüm hakları saklıdır.</span>
+      </div>
+    </footer>
+
+
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
